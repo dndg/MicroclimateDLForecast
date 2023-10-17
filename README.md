@@ -18,6 +18,23 @@ The 'data' directory encompasses the input data utilized in the current research
 - data_torreboldone: It contains data pertaining to the morphology of the study area located in Torre Boldone, Bg, Italy.
 
 # use description
+The following Python packages are required in order to run the code:
+- numpy
+- pandas
+- sys
+- pickle
+- matplotlib
+- seaborn
+- datetime
+- pygrib (maybe can generate some conflicts with tensorflow)
+- random
+- os
+- copy
+- scipy
+- sklearn
+- tensorflow
+
+In order to setup the coding framework it is suggested to create a conda environment and work on jupyter lab (the present reasearch has been conducted with these tools).
 
 
-Feel free to explore the project and leverage the provided resources for further analysis and development. If you have any questions or suggestions, please don't hesitate to reach out. 
+Feel free to explore the project and leverage the provided resources for further analysis and development. If you have any questions or suggestions, please don't hesitate to reach out.
