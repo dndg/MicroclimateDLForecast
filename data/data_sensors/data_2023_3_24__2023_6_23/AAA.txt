@@ -1,0 +1,3 @@
+Sensore 6 bloccato per un breve periodo e poi è ripartito
+Sensore 21 perso dati ad una certa e sostituito
+Sensore 22 non era calibrato!!

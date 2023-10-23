@@ -1,0 +1,2 @@
+Sensore 2, 3, 4, 9, 17, 20, 24 non hanno registrato i dati da febbraio a marzo.
+Sensore 12 misura tutto costante, mi sa che ha problemi batteria

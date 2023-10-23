@@ -1,0 +1,1 @@
+Sensore 22 non ha misurato durante la calibrazione! E' stato quindi epurato e sostituito con uno nuovo che non sarà calibrato.
