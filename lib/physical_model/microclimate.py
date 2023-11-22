@@ -64,10 +64,10 @@ class Microclimate:
                                                 alb = alb, albr = albr)
         
         #box coordinates to select the study area from the dsm
-        box_a3_lat = study_area_coordinates[0]#804
-        box_a1_lat = study_area_coordinates[1]#619
-        box_a3_lon = study_area_coordinates[2]#422
-        box_a2_lon = study_area_coordinates[3]#588
+        box_a3_lat = study_area_coordinates[0]
+        box_a1_lat = study_area_coordinates[1]
+        box_a3_lon = study_area_coordinates[2]
+        box_a2_lon = study_area_coordinates[3]
         
         #compute lapserate correction to reference temperature
         lapserate_correction = lapserate(t_ref, hs, p)*(dsm-np.mean(dsm[box_a1_lat:box_a3_lat, box_a3_lon:box_a2_lon]))

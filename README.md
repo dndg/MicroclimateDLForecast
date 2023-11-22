@@ -15,7 +15,7 @@ The 'data' directory encompasses the input data utilized in the current research
 - data_arpa: This directory contains the data recorded by ARPA stations.
 - data_era5: Here, you will find the data downloaded from the ERA5 database.
 - data_sensors: This directory holds the data measured by local sensors.
-- data_torreboldone: It contains data pertaining to the morphology of the study area located in Torre Boldone, Bg, Italy.
+- data_torreboldone: It contains data pertaining to the morphology of the study area located in Torre Boldone, Bg, Italy .
 
 # use description
 The following Python packages are required in order to run the code:

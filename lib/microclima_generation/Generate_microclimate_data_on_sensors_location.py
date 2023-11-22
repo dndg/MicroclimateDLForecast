@@ -77,6 +77,7 @@ def compute_microclimate_data_on_sensors_location(df_Climate, df_sensors,
                                           alb = alb, albr = albr)
 
                 for sensor_idx in df_sensors.Sensor_id.unique():
+                    #This is specific for the study area coordinates! You only need to access the sensors locations in the micro maps
 
                     df_sensor_spec = df_sensors[df_sensors.Sensor_id == sensor_idx]
                     df_sensor_micro = df_sensor_spec[(df_sensor_spec.Year == year) & (df_sensor_spec.Day == day) & (df_sensor_spec.Hour == hour)&(df_sensor_spec.Month == month)]
@@ -91,8 +92,8 @@ def compute_microclimate_data_on_sensors_location(df_Climate, df_sensors,
                     row_start = 688 
                     col_start = 770
 
-                    idx_lat = int(((yllcorner+3100*2) - Gauss_Boaga_N)/2)-row_start
-                    idx_lon = int (((Gauss_Boaga_E - xllcorner) - col_start*2)/2)
+                    idx_lat = int(((yllcorner+3100*2) - Gauss_Boaga_N)/2)-row_start 
+                    idx_lon = int (((Gauss_Boaga_E - xllcorner) - col_start*2)/2) 
 
                     shortwave_rad_out = micro.ShortWaveRad[idx_lat, idx_lon]
                     longwave_rad_out = micro.LongWaveRad[idx_lat, idx_lon]
