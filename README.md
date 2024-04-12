@@ -1,5 +1,5 @@
 # Project description
-This repository contains the pyhton code and the jupyter notebooks which reproduce all the results and figures presented in the paper 'Harnessing Deep Learning to Forecast Local Microclimate using Global Climate Data' made by M.Zanchi et al, submitted to Scientifc Reports.
+This repository contains the pyhton code and the jupyter notebooks which reproduce all the results and figures presented in the paper: Zanchi, M. et al Harnessing deep learning to forecast local microclimate using global climate data. Sci Rep 13, 21062 (2023). https://doi.org/10.1038/s41598-023-48028-1
 
 # notebooks
 The 'notebooks' directory contains a collection of notebooks that provide detailed explanations of the research procedures, theoretical models employed, and the presentation of results. The following notebook is included:
@@ -15,7 +15,7 @@ The 'data' directory encompasses the input data utilized in the current research
 - data_arpa: This directory contains the data recorded by ARPA stations.
 - data_era5: Here, you will find the data downloaded from the ERA5 database.
 - data_sensors: This directory holds the data measured by local sensors.
-- data_torreboldone: It contains data pertaining to the morphology of the study area located in Torre Boldone, Bg, Italy .
+
 
 # use description
 The following Python packages are required in order to run the code:
